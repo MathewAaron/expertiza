@@ -7,6 +7,7 @@ class TeamsController < ApplicationController
      'Administrator'].include? current_role_name
   end
 
+
   # This function is used to create teams with random names.
   # Instructors can call by clicking "Create temas" icon anc then click "Create teams" at the bottom.
   def create_teams
